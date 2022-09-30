@@ -137,11 +137,14 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   border-color: transparent;
   cursor: pointer;
   margin-left: 692px;
+  border-radius: 4px;
+}
+.button-posluga:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: #2196f3;
 }
 
 .background {
