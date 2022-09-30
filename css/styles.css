@@ -1,8 +1,8 @@
-/* ------------BODY------------- */
 .content {
   font-family: Roboto, sans-serif;
   color: black;
 }
+
 .web-studio {
   font-family: "Raleway";
   font-style: normal;
@@ -13,9 +13,11 @@
   color: #2196f3;
   text-decoration: none;
 }
+
 .main-studio {
   color: black;
 }
+
 .studio {
   font-style: normal;
   font-weight: 500;
@@ -26,12 +28,15 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 .studio:focus {
   color: #2196f3;
 }
+
 .studio:hover {
   color: #2196f3;
 }
+
 .portfolio {
   font-style: normal;
   font-weight: 500;
@@ -42,6 +47,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 .portfolio:focus {
   color: #2196f3;
 }
@@ -49,6 +55,7 @@
 .portfolio:hover {
   color: #2196f3;
 }
+
 .contacts {
   font-style: normal;
   font-weight: 500;
@@ -59,6 +66,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 .contacts:focus {
   color: #2196f3;
 }
@@ -66,6 +74,7 @@
 .contacts:hover {
   color: #2196f3;
 }
+
 .mailto {
   font-style: normal;
   font-weight: 500;
@@ -76,6 +85,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 .mailto:focus {
   color: #2196f3;
 }
@@ -83,6 +93,7 @@
 .mailto:hover {
   color: #2196f3;
 }
+
 .tel {
   font-style: normal;
   font-weight: 500;
@@ -93,6 +104,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 .tel:focus {
   color: #2196f3;
 }
@@ -100,6 +112,7 @@
 .tel:hover {
   color: #2196f3;
 }
+
 .title-content {
   font-family: "Roboto";
   font-style: normal;
@@ -111,6 +124,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .button-posluga {
   font-family: "Roboto";
   font-style: normal;
@@ -129,12 +143,15 @@
   cursor: pointer;
   margin-left: 692px;
 }
+
 .background {
   background: #2f303a;
 }
+
 .background-team {
   background: #f5f4fa;
 }
+
 .caption {
   font-family: "Roboto";
   font-style: normal;
@@ -145,6 +162,7 @@
   text-transform: uppercase;
   color: #212121;
 }
+
 .article {
   font-family: "Roboto";
   font-style: normal;
@@ -154,6 +172,7 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .article-name {
   font-family: "Roboto";
   font-style: normal;
@@ -164,9 +183,11 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .list {
   list-style-type: none;
 }
+
 .headlines {
   font-family: "Roboto";
   font-style: normal;
@@ -177,6 +198,7 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .name {
   font-family: "Roboto";
   font-style: normal;
@@ -187,6 +209,7 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .command-block {
   background-color: white;
   width: 270px;
@@ -198,6 +221,7 @@
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
+
 .location {
   font-family: "Roboto";
   font-style: normal;
@@ -208,6 +232,7 @@
   color: #ffffff;
   text-decoration: none;
 }
+
 .address-link {
   font-family: "Roboto";
   font-style: normal;
@@ -218,18 +243,220 @@
   color: #ffffff;
   text-decoration: none;
 }
+
 .address-link:focus {
   color: #2196f3;
 }
+
 .address-link:hover {
   color: #2196f3;
 }
+
 .location:focus {
   color: #2196f3;
 }
+
 .location:hover {
   color: #2196f3;
 }
+
 .footer-studio {
   color: #ffffff;
+}
+
+.button-list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.buttons {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.buttons:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.list-panel {
+  list-style-type: none;
+}
+
+.panel {
+  text-decoration: none;
+}
+
+.title-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.card-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.box-card-1 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-1:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-2 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-2:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-3 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-3:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-4 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-4:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-5 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-5:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-6 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-6:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-7 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-7:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-8 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-8:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-card-9 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box-card-9:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.move:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
