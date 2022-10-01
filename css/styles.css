@@ -14,6 +14,7 @@ body {
   --posluga-button: #188ce8;
   --box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  --address-color: rgba(255, 255, 255, 0.6);
 }
 .navigation {
   list-style-type: none;
@@ -117,9 +118,6 @@ body {
 .tel:hover {
   color: var(--acent-color);
 }
-.invisible {
-  visibility: hidden;
-}
 
 .title-content {
   font-weight: 900;
@@ -138,14 +136,27 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--posluga-button);
   color: var(--main-white-color);
+  background-color: var(--acent-color);
   border-color: transparent;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
 }
 .button-posluga:hover {
-  box-shadow: var(--box-shadow);
+  background-color: var(--posluga-button);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .background {
@@ -223,7 +234,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-white-color);
+  color: var(--address-color);
   text-decoration: none;
 }
 
@@ -300,132 +311,39 @@ body {
 }
 
 .box-card-1 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-1:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-2 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 262px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-2:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-3 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 262px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-3:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-4 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 696px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-4:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-5 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 615px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-5:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-6 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 696px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-6:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-7 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 1130px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-7:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-8 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 1130px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-8:hover {
-  box-shadow: var(--box-shadow);
 }
 
 .box-card-9 {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 1130px;
   background-color: var(--main-white-color);
-  border: 1px solid var(--border-color);
-}
-
-.box-card-9:hover {
-  box-shadow: var(--box-shadow);
-}
-
-.move:hover {
-  box-shadow: var(--box-shadow);
 }
 .current {
   color: var(--acent-color);
