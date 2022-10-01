@@ -1,9 +1,9 @@
-body{
+body {
   font-family: "Roboto", sans-serif;
   color: var(--main-white-color);
-  background-color:var(--main-white-color);
+  background-color: var(--main-white-color);
 }
-:root{
+:root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --acent-color: #2196f3;
@@ -12,11 +12,10 @@ body{
   --section-comand: #f5f4fa;
   --border-color: #eeeeee;
   --posluga-button: #188ce8;
-  --box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
+  --box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.navigation{
+.navigation {
   list-style-type: none;
 }
 .web-studio {
@@ -26,12 +25,12 @@ body{
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color:var(--acent-color);
+  color: var(--acent-color);
   text-decoration: none;
 }
 
 .main-studio {
-  color:var(--title-text-color)
+  color: var(--title-text-color);
 }
 
 .studio {
@@ -39,16 +38,16 @@ body{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
 .studio:focus {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .studio:hover {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .portfolio {
@@ -56,16 +55,16 @@ body{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
 .portfolio:focus {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .portfolio:hover {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .contacts {
@@ -73,16 +72,16 @@ body{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
 .contacts:focus {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .contacts:hover {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .mailto {
@@ -90,16 +89,16 @@ body{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .mailto:focus {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .mailto:hover {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .tel {
@@ -107,19 +106,19 @@ body{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .tel:focus {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .tel:hover {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
-.invisible{
-visibility: hidden;
+.invisible {
+  visibility: hidden;
 }
 
 .title-content {
@@ -129,7 +128,7 @@ visibility: hidden;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color:var(--main-white-color)
+  color: var(--main-white-color);
 }
 
 .button-posluga {
@@ -139,14 +138,14 @@ visibility: hidden;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color:var(--posluga-button);
+  background-color: var(--posluga-button);
   color: var(--main-white-color);
   border-color: transparent;
   cursor: pointer;
   border-radius: 4px;
 }
 .button-posluga:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .background {
@@ -154,7 +153,7 @@ visibility: hidden;
 }
 
 .background-team {
-  background-color:var(--section-comand);
+  background-color: var(--section-comand);
 }
 
 .caption {
@@ -163,14 +162,14 @@ visibility: hidden;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .article {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .article-name {
@@ -178,7 +177,7 @@ visibility: hidden;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -191,7 +190,7 @@ visibility: hidden;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .name {
@@ -200,22 +199,22 @@ visibility: hidden;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .command-block {
-  background-color:var(--main-white-color);
-  box-shadow:var(--box-shadow);
+  background-color: var(--main-white-color);
+  box-shadow: var(--box-shadow);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
 .location {
- font-style: normal;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color:var(--main-white-color);
+  color: var(--main-white-color);
   text-decoration: none;
 }
 
@@ -224,28 +223,28 @@ visibility: hidden;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color:var(--main-white-color);
+  color: var(--main-white-color);
   text-decoration: none;
 }
 
 .address-link:focus {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .address-link:hover {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .location:focus {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .location:hover {
-  color:var(--acent-color);
+  color: var(--acent-color);
 }
 
 .footer-studio {
-  color:var(--main-white-color);
+  color: var(--main-white-color);
 }
 
 .button-list {
@@ -260,21 +259,21 @@ visibility: hidden;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--title-text-color);
-  background-color:var(--section-comand);
+  color: var(--title-text-color);
+  background-color: var(--section-comand);
   border-radius: 4px;
   border-color: transparent;
   cursor: pointer;
 }
 
 .buttons:hover {
-  background-color:var(--acent-color);
-  color:var(--main-white-color);
+  background-color: var(--acent-color);
+  color: var(--main-white-color);
 }
 
 .buttons:focus {
-  background-color:var(--acent-color);
-  color:var(--main-white-color);
+  background-color: var(--acent-color);
+  color: var(--main-white-color);
 }
 
 .list-panel {
@@ -290,14 +289,14 @@ visibility: hidden;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .card-name {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .box-card-1 {
@@ -306,12 +305,12 @@ visibility: hidden;
   height: 404px;
   left: 215px;
   top: 262px;
-  background-color:var(--main-white-color);
+  background-color: var(--main-white-color);
   border: 1px solid var(--border-color);
 }
 
 .box-card-1:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-2 {
@@ -320,12 +319,12 @@ visibility: hidden;
   height: 404px;
   left: 615px;
   top: 262px;
-  background-color:var(--main-white-color);
+  background-color: var(--main-white-color);
   border: 1px solid var(--border-color);
 }
 
 .box-card-2:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-3 {
@@ -339,7 +338,7 @@ visibility: hidden;
 }
 
 .box-card-3:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-4 {
@@ -353,7 +352,7 @@ visibility: hidden;
 }
 
 .box-card-4:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-5 {
@@ -366,7 +365,7 @@ visibility: hidden;
 }
 
 .box-card-5:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-6 {
@@ -380,7 +379,7 @@ visibility: hidden;
 }
 
 .box-card-6:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-7 {
@@ -389,12 +388,12 @@ visibility: hidden;
   height: 404px;
   left: 215px;
   top: 1130px;
-  background-color:var(--main-white-color);
+  background-color: var(--main-white-color);
   border: 1px solid var(--border-color);
 }
 
 .box-card-7:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-8 {
@@ -408,7 +407,7 @@ visibility: hidden;
 }
 
 .box-card-8:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .box-card-9 {
@@ -422,12 +421,12 @@ visibility: hidden;
 }
 
 .box-card-9:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .move:hover {
-  box-shadow:var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
-.current{
-  color:var(--acent-color);
+.current {
+  color: var(--acent-color);
 }
